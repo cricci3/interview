@@ -25,19 +25,22 @@ lista degli stakeholder, spiegando perché ciascuno di essi è rilevante (ad ese
 
 ## Workflow
 *Attività 1: Inserimento Prescrizioni da Parte del Medico*
-- *Requisiti:* Consentire ai medici di inserire le prescrizioni per ciascun paziente.
-- *Descrizione:* I medici inseriscono le informazioni sul farmaco, il dosaggio e le istruzioni nell'applicazione.
-- *Stakeholders:* Medico/fisioterapista
-- *Motivazione:* Semplificare il processo di registrazione delle prescrizioni, migliorando l'efficienza per il personale medico.
+- Requisiti: Consentire ai medici di inserire le prescrizioni per ciascun paziente.
+- Descrizione: I medici inseriscono le informazioni sul farmaco, il dosaggio e le istruzioni nell'applicazione.
+- Stakeholders: Medico/fisioterapista
+- Motivazione: Semplificare il processo di registrazione delle prescrizioni, migliorando l'efficienza per il personale medico.
+- to do: intervista/questionario a medico
 
 *Attività 2: Conferma dell'Assunzione da Parte del Paziente*
-- *Requisiti:* Consentire ai pazienti di confermare l'assunzione delle medicine.
-- *Descrizione:* I pazienti ricevono notifiche giornaliere o programmabili per confermare l'assunzione delle medicine, rispondendo con un "sì" o "no" attraverso l'app.
-- *Stakeholders:* Pazienti
-- *Motivazione:* Migliorare la comunicazione tra medico e paziente, fornendo un mezzo interattivo per monitorare l'aderenza alle prescrizioni.
+- Requisiti: Consentire ai pazienti di confermare l'assunzione delle medicine.
+- Descrizione: I pazienti ricevono notifiche giornaliere o programmabili per confermare l'assunzione delle medicine, rispondendo con un "sì" o "no" attraverso l'app.
+- Stakeholders: Pazienti
+- Motivazione: Migliorare la comunicazione tra medico e paziente, fornendo un mezzo interattivo per monitorare l'aderenza alle prescrizioni.
+- to do: intervista a paziente
 
 *Attività 3: Accesso da Parte di Familiari e Caregiver*
-- *Requisiti:* Accesso limitato alle informazioni sulle prescrizioni del paziente con il consenso del paziente stesso.
-- *Descrizione:* Familiari e caregiver possono avere accesso alle informazioni sulle prescrizioni per monitorare l'aderenza del paziente e fornire supporto, previa autorizzazione del paziente stesso.
-- *Stakeholders:* Familiari e Caregiver
-- *Motivazione:* Coinvolgere i familiari può migliorare il sostegno emotivo e pratico al paziente, aumentando l'aderenza alle cure.
+- Requisiti: Accesso limitato alle informazioni sulle prescrizioni del paziente con il consenso del paziente stesso.
+- Descrizione: Familiari e caregiver possono avere accesso alle informazioni sulle prescrizioni per monitorare l'aderenza del paziente e fornire supporto, previa autorizzazione del paziente stesso.
+- Stakeholders: Familiari e Caregiver
+- Motivazione: Coinvolgere i familiari può migliorare il sostegno emotivo e pratico al paziente, aumentando l'aderenza alle cure.
+- to do: intervista a tutore paziente
