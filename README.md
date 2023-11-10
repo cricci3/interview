@@ -1,6 +1,6 @@
 # 2023_assignment2_interview
 
-## Progetto
+## MediCareReminder Project
 Breve descrizione del dominio applicativo e del progetto selezionato
 
 ### Dominio applicativo
