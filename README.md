@@ -1,5 +1,11 @@
 # 2023_assignment2_interview
 
+## Partecipanti
+
+- Claudio Ricci mtr. 918956
+
+- Damiano Ficara mtr. 919386
+
 ## MediCareReminder Project
 Breve descrizione del dominio applicativo e del progetto selezionato
 
