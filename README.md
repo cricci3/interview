@@ -10,6 +10,7 @@ Il dominio applicativo di questa applicazione è la gestione delle terapie medic
 Il progetto mira a sviluppare un'applicazione mobile dedicata a garantire una gestione efficiente e accurata delle terapie mediche prescritte ai pazienti. L'applicazione sarà dotata di due interfacce distinte: un lato medico e un lato paziente, consentendo una comunicazione bidirezionale tra medici e pazienti per garantire il corretto adempimento delle terapie.
 
 Interfaccia Medica:
+
 - Interfaccia Paziente: i pazienti riceveranno notifiche automatiche in base alle prescrizioni stabilite dal medico. Queste notifiche fungeranno da promemoria per ricordare al paziente di prendere i farmaci secondo la pianificazione stabilita.\
 Dopo aver ricevuto la notifica, il paziente potrà segnalare attraverso l'applicazione se ha preso il medicinale o meno.
 
