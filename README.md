@@ -1,6 +1,9 @@
-# 2023_assignment2_interview
+# Assignment 2 - Processo e Sviluppo del Software
 
-## Partecipanti
+## Git URL
+https://gitlab.com/bicoccaprojects/2023_assignment2_interview
+
+## Membri del Gruppo
 
 - Claudio Ricci mtr. 918956
 
