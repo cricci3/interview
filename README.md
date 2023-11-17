@@ -9,65 +9,16 @@ https://gitlab.com/bicoccaprojects/2023_assignment2_interview
 
 - Damiano Ficara mtr. 919386
 
-## MediCareReminder Project
-Breve descrizione del dominio applicativo e del progetto selezionato
+## Obiettivo dell'Assignment
+L'assignment si propone di delineare una strategia volta a raccogliere informazioni cruciali per l'implementazione di un progetto software in fase di sviluppo. Inquadrandoci nell'ambito del requirements engineering, l'attenzione sarà focalizzata sulla comprensione del comportamento che una soluzione software dovrebbe adottare per affrontare un problema specifico. Pertanto, è necessario inizialmente investigare la natura del problema da risolvere al fine di comprenderne il contesto in cui si manifesta.
 
-### Dominio applicativo
-Il dominio applicativo di questa applicazione è la gestione delle terapie mediche. L'applicazione è progettata per essere utilizzata nel settore della sanità e della cura dei pazienti, facilitando la comunicazione e il monitoraggio delle prescrizioni mediche tra medici e pazienti. In particolare, l'applicazione si concentra sulla pianificazione, notifica e registrazione dell'assunzione di farmaci, contribuendo così a migliorare l'aderenza del paziente alla terapia prescritta. Il dominio applicativo è quindi incentrato sulla gestione efficiente e accurata delle terapie mediche attraverso l'uso di tecnologie mobili.
+## Sentiment Analysis su Vulnerabilità Informatiche Project
+### System-as-is
+Esiste già un sistema che valuta la severità di una vulnerabilità informatica, il sistema CVE, ma questo ha parecchi limiti. Il sistema CVE assegna una valutazione a ogni vulnerabilità tramite il CVE Severity Score, o CVSS, ma non misura l’impatto di una vulnerabilità perché non è nato per questo scopo. Dunque, dati due valori CVSS, non si è in grado di dire quale dei due sia più urgente da gestire. Lo stesso punteggio CVSS può avere un impatto diverso nel tempo, oppure può avere impatti diversi in sistemi diversi.
 
-### Progetto
-Il progetto mira a sviluppare un'applicazione mobile dedicata a garantire una gestione efficiente e accurata delle terapie mediche prescritte ai pazienti. L'applicazione sarà dotata di due interfacce distinte: un lato medico e un lato paziente, consentendo una comunicazione bidirezionale tra medici e pazienti per garantire il corretto adempimento delle terapie.
+Inoltre, secondo un rapporto del 2022 pubblicato da FlashPoint (https://www.scmagazine.com/news/half-of-10-0-cvss-vulnerabilities-reported-so-far-in-2022-scored-incorrectly), è emerso che circa la metà delle vulnerabilità considerate più critiche potrebbe essere stata valutata in modo errato. Nel corso degli ultimi 10 anni, si è verificato che in media il 51,5% di tutte le vulnerabilità con un punteggio CVSS di 10.0 non corrispondesse effettivamente a tale valutazione. Ciò implica che le aziende potrebbero dare priorità a centinaia di problemi che non raggiungono il massimo livello di gravità come indicato dal punteggio CVSS. Flashpoint ha condotto un’analisi su 11.860 vulnerabilità relative agli ultimi 10 anni e ha rilevato che il 27,3% di queste vulnerabilità è stato erroneamente segnalato o erroneamente descritto dai servizi CVE.
 
-Interfaccia Medica:
+Questa ricerca evidenzia l’importanza di considerare tali limitazioni e sottolinea la necessità di integrare il sistema CVSS con altre metodologie e valutazioni per ottenere una valutazione più completa e accurata dei rischi di sicurezza. Tale integrazione consentirebbe alle aziende di prendere decisioni informate e prioritarie sulla gestione delle vulnerabilità, andando oltre la valutazione basata esclusivamente sul punteggio CVSS.
 
-- Interfaccia Paziente: i pazienti riceveranno notifiche automatiche in base alle prescrizioni stabilite dal medico. Queste notifiche fungeranno da promemoria per ricordare al paziente di prendere i farmaci secondo la pianificazione stabilita.\
-Dopo aver ricevuto la notifica, il paziente potrà segnalare attraverso l'applicazione se ha preso il medicinale o meno.
-
-- Il medico avrà accesso a un pannello dedicato in cui potrà inserire le prescrizioni mediche per ciascun paziente.\
-Per ogni medicinale, il medico potrà specificare la quantità, l'orario e i giorni della settimana in cui il paziente dovrebbe assumere il farmaco. Verifica Medica, il medico avrà accesso a un riepilogo delle risposte dei pazienti, consentendo una verifica immediata sull'aderenza alla terapia prescritta.
-
-
-## Stakeholders
-lista degli stakeholder, spiegando perché ciascuno di essi è rilevante (ad esempio, considerando il loro livello di potere e di interesse sul sistema).
-
-- persona che prende le medicine, che sia la persona disabile o un tutore
-
-- medico / fisioterapista che prescrive medicinali
-
-
-## Workflow
-*Attività 1: Inserimento Prescrizioni da Parte del Medico*
-
-- Requisiti: Consentire ai medici di inserire le prescrizioni per ciascun paziente.
-
-- Descrizione: I medici inseriscono le informazioni sul farmaco, il dosaggio e le istruzioni nell'applicazione.
-
-- Stakeholders: Medico/fisioterapista
-
-- Motivazione: Semplificare il processo di registrazione delle prescrizioni, migliorando l'efficienza per il personale medico.
-
-- to do: intervista/questionario a medico
-
-*Attività 2: Conferma dell'Assunzione da Parte del Paziente*
-
-- Requisiti: Consentire ai pazienti di confermare l'assunzione delle medicine.
-
-- Descrizione: I pazienti ricevono notifiche giornaliere o programmabili per confermare l'assunzione delle medicine, rispondendo con un "sì" o "no" attraverso l'app.
-
-- Stakeholders: Pazienti
-
-- Motivazione: Migliorare la comunicazione tra medico e paziente, fornendo un mezzo interattivo per monitorare l'aderenza alle prescrizioni.
-
-- to do: intervista a paziente
-
-*Attività 3: Accesso da Parte di Familiari e Caregiver*
-
-- Requisiti: Accesso limitato alle informazioni sulle prescrizioni del paziente con il consenso del paziente stesso.
-
-- Descrizione: Familiari e caregiver possono avere accesso alle informazioni sulle prescrizioni per monitorare l'aderenza del paziente e fornire supporto, previa autorizzazione del paziente stesso.
-
-- Stakeholders: Familiari e Caregiver
-
-- Motivazione: Coinvolgere i familiari può migliorare il sostegno emotivo e pratico al paziente, aumentando l'aderenza alle cure.
-
-- to do: intervista a tutore paziente
+### System-to-be
+Il sistema che si andrà a sviluppare prende in input un codice CVE (Common Vulnerabilities and Exposures), utilizzato per identificare univocamente una vulnerabilità, e raccoglie da diverse fonti online quali Reddit, Telegram e siti di notizie di settore, contenuti rilevanti rispetto all’input. Successivamente, i contenuti raccolti vengono sottoposti ad un’analisi del sentimento effettuata tramite machine-learning al fine di estrapolare un “indicatore di interesse” relativo alla vulnerabilità in questione. Tale indicatore potrà fornire utili informazioni circa la percezione degli utenti riguardo la gravita e l’importanza della vulnerabilità stessa. Il sistema di sentiment analysis sviluppato, grazie alla sua capacita di analizzare automaticamente numerose fonti di informazioni, fornisce un punteggio sentimentale che riflette l’opinione generale di articoli di settore e degli utenti della comunità della sicurezza informatica su una specifica CVE.
