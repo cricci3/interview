@@ -31,3 +31,6 @@ Questa ricerca evidenzia l’importanza di considerare tali limitazioni e sottol
 
 ### System-to-be
 Il sistema che si andrà a sviluppare prende in input un codice CVE e raccoglie da diverse fonti online contenuti rilevanti rispetto all’input. Successivamente, i contenuti raccolti vengono sottoposti ad un’analisi del sentimento effettuata tramite machine-learning al fine di estrapolare un “indicatore di interesse” relativo alla vulnerabilità in questione. Tale indicatore potrà fornire utili informazioni circa la percezione degli utenti riguardo la gravita e l’importanza della vulnerabilità stessa. Il sistema di sentiment analysis sviluppato, grazie alla sua capacità di analizzare automaticamente numerose fonti di informazioni, fornisce un punteggio sentimentale che riflette su una specifica CVE.
+
+## Workflow
+![workflow](workflow.png)
