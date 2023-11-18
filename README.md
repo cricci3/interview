@@ -31,7 +31,25 @@ Questa ricerca evidenzia l’importanza di considerare tali limitazioni e sottol
 ### System-to-be
 Il sistema che si andrà a sviluppare prende in input un codice CVE e raccoglie da diverse fonti online contenuti rilevanti rispetto all’input. Successivamente, i contenuti raccolti vengono sottoposti ad un’analisi del sentimento effettuata tramite machine-learning al fine di estrapolare un “indicatore di interesse” relativo alla vulnerabilità in questione. Tale indicatore potrà fornire utili informazioni circa la percezione degli utenti riguardo la gravita e l’importanza della vulnerabilità stessa. Il sistema di sentiment analysis sviluppato, grazie alla sua capacità di analizzare automaticamente numerose fonti di informazioni, fornisce un punteggio sentimentale che riflette su una specifica CVE.
 
-## Workflow
+## Elicitation Strategy
+### Stakeholders
+- Secuirty Specialist, esperto di sicurezza informatica che monitora e raccoglie informazioni sulle vulnerabilità informatiche (CVE) 
+
+- Software Engineer, sviluppatore software con competenze su NLP e Sentiment Analysis
+
+- Security Manager, persona che gestisce un reparto di Secuirty Specialist
+
+- Cybersecurity community, comunità online della Cybersecurity
+
+### Workflow
 <div align="center">
   <img src="Workflow.png" alt="Image" width="300"/>
 </div>
+
+1. Intervista a security specialist contribuisce all'analisi del contesto di sicurezza del progetto. Offre un'expertise specifica sulla sicurezza informatica.
+
+2. Intervista a software engineer apporta conoscenze su come sviluppare il progetto di sentiment analysis e fornisce input sulle tecniche di intelligenza artificiale più adatte per l'analisi delle informazioni sulle CVE. Il Software Developer con Competenze in AI contribuisce alla progettazione dell'analisi dei sentimenti attraverso l'intelligenza artificiale.
+
+3. Intervista a security manager può fornire un punto di vista strategico sulla necessità di investire in un tool di ricerca di informazioni automatico. La sua esperienza nel coordinare il reparto di sicurezza può essere preziosa per valutare l'efficacia e la rilevanza di strumenti automatizzati. Il Security Manager può influenzare la decisione sull'adozione di strumenti automatici basandosi sulla sua esperienza nella gestione della sicurezza.
+
+4. Il questionario alla community della Cyber security può fornire un feedback sul tool che si vuole andare a sviluppare.
