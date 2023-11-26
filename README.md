@@ -42,12 +42,38 @@ Il sistema che si andrà a sviluppare prende in input un codice CVE e raccoglie 
 - **Cybersecurity community**: la community online della Cybersecurity è un ambiente estremamente attivo e vasto, soprattutto su piattaforme come Reddit. La comunità delle CVE su Reddit è particolarmente dinamica, focalizzandosi sulla segnalazione, discussione e risoluzione di vulnerabilità informatiche. Nei subreddit dedicati è possibile accedere a notizie aggiornate su nuove vulnerabilità scoperte, partecipare a discussioni tecniche riguardo alla loro natura e scoprire metodi per mitigarle.\Per sfruttare appieno le risorse e le competenze presenti in questa comunità, stiamo considerando l'idea di pubblicare un questionario su siti frequentati dagli esperti di cybersecurity. Questo questionario mira a raccogliere requisiti e feedback direttamente dalla comunità stessa. Vorremmo capire le esigenze, le sfide e le aspettative degli esperti in materia di vulnerabilità informatiche, in modo da adattare il nostro progetto alle reali necessità della community.\L'interazione con la comunità online della cybersecurity rappresenta una risorsa inestimabile, consentendo una partecipazione attiva degli esperti nel plasmare e perfezionare il nostro approccio. In questo modo, puntiamo a sviluppare soluzioni più mirate e pertinenti, promuovendo una collaborazione sinergica che beneficia l'intera comunità nella lotta contro le minacce informatiche.
 
 
-| Stakeholder| Potere | Interesse | Strategia |
-|----------|----------|----------|----------|
-| Security Specialist | Basso | Alto | Pienamente coinvolto |
-| Software Engineer | Basso | Basso | Sforzo minimo |
-| Security Manager | Alto | Basso | Soddisfare |
-| Cybersecurity Community | Basso | Alto | Sforzo mimimo |
+<table align="center">
+  <tr>
+    <th>Stakeholder</th>
+    <th>Potere</th>
+    <th>Interesse</th>
+    <th>Strategia</th>
+  </tr>
+  <tr>
+    <td>Security Specialist</td>
+    <td>Basso</td>
+    <td>Alto</td>
+    <td>Pienamente coinvolto</td>
+  </tr>
+  <tr>
+    <td>Software Engineer</td>
+    <td>Basso</td>
+    <td>Basso</td>
+    <td>Sforzo minimo</td>
+  </tr>
+  <tr>
+    <td>Security Manager</td>
+    <td>Alto</td>
+    <td>Basso</td>
+    <td>Soddisfare</td>
+  </tr>
+  <tr>
+    <td>Cybersecurity Community</td>
+    <td>Basso</td>
+    <td>Alto</td>
+    <td>Sforzo minimo</td>
+  </tr>
+</table>
 
 
 
