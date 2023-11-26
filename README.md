@@ -85,17 +85,17 @@ Attraverso questa intervista, miriamo a ottenere un quadro completo delle esigen
 
 ### Intervista a Security Specialist
 
-- **Requisiti Tecnici:**
+**Requisiti Tecnici:**
     - Sorgenti di informazioni: quali siti web o piattaforme online ritiene che siano più affidabili e ricche di informazioni riguardo alle CVE? Utilizza anche social network come _Reddit_ o _X_ per informarsi? Se si, quali canali/subreddit?
     - Tipi di informazioni rilevanti: quali tipi di informazioni relative a una vulnerabilità ritiene siano fondamentali per un'analisi approfondita?
     - Parametri di ricerca: quali parametri ritiene siano cruciali per una ricerca efficace di informazioni su una CVE? Ad esempio, versioni del software, dettagli tecnici specifici, etc.
     - Ci sono particolari dati tecnici, come exploit code, patch, o analisi di impatto, che vorrebbe includere nel risultato della ricerca?
     - Strumenti attualmente usati: attualmente usa strumenti simili per ottenere informazioni sulle CVE? Se sì, quali funzionalità apprezza di più o ritiene siano carenti?
-- **Requisiti Grafici:**
+**Requisiti Grafici:**
     - GUI: quali elementi visivi ritiene siano importanti nell'interfaccia utente del tool? Preferisce un'interfaccia minimalista o una più dettagliata?
     - Formato dei risultati: come preferirebbe ricevere i risultati delle ricerche? Ci sono formati specifici di output che trova più pratici? (Ad esempio, un elenco strutturato, grafici, ecc.)
     - Personalizzazione: preferisce un tool con opzioni di personalizzazione, ad esempio, la possibilità di configurare i siti da cui attingere informazioni o definire criteri di ricerca avanzati?
-- **Altre Considerazioni:**
+**Altre Considerazioni:**
     - Notifiche e alert: ritiene importante ricevere notifiche o alert immediati in caso di nuove informazioni rilevanti per una CVE specifica?
     - Tempi di studio: quanto tempo mediamente impiega per studiare le informazioni relative a una vulnerabilità informatica quando lo fa manualmente?
     - Performance: in termini di tempo quale pensa che debba essere il vantaggio portato dal tool rispetto alla ricerca manuale per portare dei vantaggi tangibili?
@@ -202,22 +202,16 @@ Sottoporre un questionario alla community online della cybersecurity rappresenta
     4. X
     5. Altro 
     
-    **Motivazione:** Comprendere da dove gli esperti di 
-    sicurezza attingono le loro informazioni è essenziale per valutare la 
-    fiducia nelle fonti. Identificare le fonti più utilizzate può anche 
-    aiutare a migliorare l'efficacia della distribuzione delle informazioni.
+    **Motivazione:** Comprendere da dove gli esperti di sicurezza attingono le loro informazioni è essenziale per costruire un tool di sentiment analysis che raccoglie informazioni dalle giuste fonti. Identificare le fonti più utilizzate può anche aiutare a migliorare l'efficacia della distribuzione delle informazioni.
     
-2. Quali criteri utilizzi per valutare la gravità di una CVE? (Es impatto aziendale, presenza di exploit)
+2. Quali criteri utilizzi per valutare la gravità di una CVE?
     1. Impatto aziendale
     2. Presenza di Exploit
     3. Rilevanza nei contesti critici
     4. Elevato potenziale di diffusione
     5. Altro
     
-    **Motivazione:** Capire i criteri prioritari per la 
-    valutazione di una CVE fornisce informazioni preziose sulle priorità di 
-    sicurezza. Ciò aiuta a personalizzare gli approcci di gestione delle 
-    vulnerabilità in base alle esigenze aziendali specifiche.
+    **Motivazione:** Capire i criteri prioritari per la valutazione di una CVE fornisce informazioni preziose sulle priorità di sicurezza. Ciò aiuta a personalizzare gli approcci di gestione delle vulnerabilità in base alle esigenze aziendali specifiche.
     
 3. Pensi che il sistema CVSS (Common Vulnerability Scoring System) attuale sia sufficiente per valutare la severità di una CVE?
     1. Pienamente d’accordo
@@ -225,20 +219,15 @@ Sottoporre un questionario alla community online della cybersecurity rappresenta
     3. Non d’accordo
     4. Per niente d’accordo
     
-    **Motivazione:** Ottenere una valutazione della percezione 
-    del CVSS aiuta a identificare se esistono preoccupazioni diffuse sulla 
-    sua adeguatezza. Questo può guidare eventuali sforzi per migliorare o 
-    integrare sistemi di valutazione esistenti.
+    **Motivazione:** Ottenere una valutazione della percezione del CVSS aiuta a identificare se esistono preoccupazioni diffuse sulla sua adeguatezza. Questo può guidare eventuali sforzi per migliorare o integrare sistemi di valutazione esistenti.
     
-4. Ritieni importante avere una sentiment analysis associata alle informazioni sulle CVE?
+4. Ritieni che possa essere utile un tool di sentiment analysis associato alle informazioni su una CVE?
     1. Estremamente utile
     2. Utile
     3. Non molto utile
     4. Per niente utile
     
-    **Motivazione:** Comprendere se gli esperti di sicurezza 
-    ritengono utile l'analisi del sentiment aiuta a determinare l'importanza
-     di considerazioni non tecniche nella gestione delle vulnerabilità.
+    **Motivazione:** Comprendere se gli esperti di sicurezza ritengono utile un tool di sentiment analysis aiuta a determinare l'importanza di considerazioni non tecniche nella gestione delle vulnerabilità.
     
 5. Pensi che il coinvolgimento della community sia cruciale per la gestione delle CVE? 
     1. Estremamente utile
@@ -246,9 +235,7 @@ Sottoporre un questionario alla community online della cybersecurity rappresenta
     3. Non molto utile
     4. Per niente utile
     
-    **Motivazione:** Valutare la percezione sull'importanza 
-    della partecipazione della community fornisce indicazioni sulla volontà 
-    di collaborare e condividere informazioni tra gli esperti di sicurezza.
+    **Motivazione:** Valutare la percezione sull'importanza della partecipazione della community fornisce indicazioni sulla volontà di collaborare e condividere informazioni tra gli esperti di sicurezza.
     
 6. Quali sono i principali ostacoli che potrebbero limitare il coinvolgimento attivo della community nella gestione delle CVE?
     1. Mancanza di consapevolezza
@@ -257,22 +244,16 @@ Sottoporre un questionario alla community online della cybersecurity rappresenta
     4. Falsi positivi
     5. Altro
     
-    **Motivazione:** Identificare gli ostacoli comuni aiuta a 
-    individuare aree in cui potrebbe essere necessario concentrare gli 
-    sforzi per migliorare la partecipazione della community nella gestione 
-    delle CVE
-    
-7. Cosa desidereresti da uno strumento automatizzato per la gestione delle CVE? **Ci sono funzionalità specifiche che vorresti vedere implementate?**
+    **Motivazione:** Identificare gli ostacoli più comuni aiuta a comprendere se affidarsi ai pareri della community su una CVE può essere utile oppure no.
+
+7. Cosa desidereresti da uno strumento automatizzato per la gestione delle CVE? In particolare, ci sono funzionalità specifiche che vorresti vedere implementate?
     1. Notifiche tempestive
     2. Report dettagliati
     3. Prioritizzazione delle patch
     4. Risposte brevi e concise
     5. Altro
     
-    **Motivazione:** Comprendere le aspettative e le priorità 
-    degli utenti rispetto agli strumenti automatizzati aiuta a sviluppare 
-    soluzioni che si adattano alle esigenze specifiche degli esperti di 
-    sicurezza.
+    **Motivazione:** Comprendere le aspettative e le priorità degli utenti rispetto agli strumenti automatizzati aiuta a sviluppare soluzioni che si adattano alle esigenze specifiche degli esperti di sicurezza.
     
 8. Hai preferenze riguardo al formato dei risultati delle ricerche sulle CVE?
     1. Elenco strutturato
@@ -281,9 +262,7 @@ Sottoporre un questionario alla community online della cybersecurity rappresenta
     4. Heatmap
     5. Altro
     
-    **Motivazione:** Conoscere le preferenze di presentazione 
-    delle informazioni aiuta a progettare interfacce utente più intuitive e 
-    utili per la gestione delle vulnerabilità.
+    **Motivazione:** Conoscere le preferenze di presentazione delle informazioni aiuta a progettare interfacce utente più intuitive e utili per la gestione delle vulnerabilità.
     
 9. Come preferiresti ricevere notifiche o avvisi riguardo a nuove CVE rilevanti per i tuoi interessi o la tua organizzazione? (Es. e-mail, notifiche push, feed RSS, altro)
     1. E-mail
@@ -292,21 +271,15 @@ Sottoporre un questionario alla community online della cybersecurity rappresenta
     4. Social
     5. Altro
     
-    **Motivazione:** Identificare il canale preferito per 
-    ricevere notifiche consente di personalizzare la distribuzione delle 
-    informazioni per massimizzare l'efficacia delle comunicazioni sulla 
-    sicurezza.
+    **Motivazione:** Identificare il canale preferito per ricevere notifiche consente di personalizzare la distribuzione delle informazioni per massimizzare l'efficacia delle comunicazioni sulla sicurezza.
     
 10. Ti va di rispondere ad alcune domande aperte?
     1. Si
     2. No
     
-    **Motivazione:** Le domande aperte offrono la possibilità 
-    di ottenere dettagli specifici e contestuali sulle esperienze personali 
-    degli utenti, fornendo informazioni approfondite sulla gestione attuale 
-    delle CVE e sulle esigenze future.
+    **Motivazione:** Le domande aperte offrono la possibilità di ottenere dettagli specifici e contestuali sulle esperienze personali degli utenti, fornendo informazioni approfondite sulla gestione attuale delle CVE e sulle esigenze future.
     
 11. Domande Aperte
-    1. Quali funzionalità trovi più utili o, al contrario, mancanti nei tuoi attuali strumenti o processi?
-    2. In che modo, il tool sviluppato, potrebbe influenzare la tua percezione e gestione delle vulnerabilità?
-    3. Come attualmente raccogli e gestisci le informazioni sulle CVE? Ci sono strumenti o processi che ritieni particolarmente utili?**
+    1. Come attualmente raccogli e gestisci le informazioni sulle CVE? Ci sono strumenti o processi che ritieni particolarmente utili?
+    2. Quali funzionalità trovi più utili o, al contrario, mancanti nei tuoi attuali strumenti di studio delle vulnerabilità?
+    3. In che modo, il tool sviluppato, potrebbe influenzare la tua percezione e gestione delle vulnerabilità?
