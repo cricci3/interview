@@ -72,7 +72,7 @@ La scelta di intervistare questo stakeholder, quindi, si basa sulla consapevolez
 
 Attraverso questa intervista, miriamo a ottenere un quadro completo delle esigenze e delle aspettative dello Specialista di Sicurezza, garantendo che il tool che stiamo sviluppando non solo semplifichi il processo di gestione delle CVE, ma lo ottimizzi in modo specifico per le necessità quotidiane di chi opera in questo settore critico.
 
-### 2. Intervista a Security Specialist
+### Intervista a Security Specialist
 
 - **Requisiti Tecnici:**
     - **Sorgenti di Informazioni:** Quali siti web o piattaforme online ritiene che siano più affidabili e ricche di informazioni riguardo alle CVE? Utilizzi anche social network come Reddit o X per informarti? Se si, quali canali/subreddit?
