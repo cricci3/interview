@@ -149,41 +149,38 @@ L'intervista ha l'obiettivo di ottenere una comprensione approfondita delle spec
 
 ### 2. Intervista a Security Manager
 
-### Gestione delle CVE:
+**Gestione delle CVE:**
+- *Prioritizzazione delle Vulnerabilità:* Quali criteri specifici vengono utilizzati per dare priorità alle CVE, e in che modo ritiene che il nostro tool possa facilitare o migliorare questo processo?
+- *Comunicazione delle Minacce:* Come pensa che una comunicazione efficiente delle minacce, attraverso il nostro tool, possa migliorare la reattività aziendale? Ci sono aspetti specifici che ritiene cruciali?
+- *Analisi dell'Impatto Aziendale:* Quali informazioni ritiene essenziali per valutare l'impatto potenziale di una CVE sulle operazioni aziendali? In che modo il nostro tool potrebbe portare beneficio a questa analisi?
 
-1. *Prioritizzazione delle Vulnerabilità:* Quali criteri specifici vengono utilizzati per dare priorità alle CVE, e in che modo ritiene che il nostro tool possa facilitare o migliorare questo processo?
-2. *Comunicazione delle Minacce:* Come pensa che una comunicazione efficiente delle minacce, attraverso il nostro tool, possa migliorare la reattività aziendale? Ci sono aspetti specifici che ritiene cruciali?
-3. *Analisi dell'Impatto Aziendale:* Quali informazioni ritiene essenziali per valutare l'impatto potenziale di una CVE sulle operazioni aziendali? In che modo il nostro tool potrebbe portare beneficio a questa analisi?
+**Integrazione con Strumenti Esistenti:**
 
-### Integrazione con Strumenti Esistenti:
-
-1. *Gestione degli Incidenti:* In che modo preferirebbe che il nostro tool si potrebbe integrare con i processi di gestione degli incidenti esistenti? Quali informazioni dovrebbero essere automaticamente condivise al fine di velocizzare la risposta a tali problematiche?
-2. *Integrazione con Altri Strumenti di Sicurezza:* Esistono 
+- *Gestione degli Incidenti:* In che modo preferirebbe che il nostro tool si potrebbe integrare con i processi di gestione degli incidenti esistenti? Quali informazioni dovrebbero essere automaticamente condivise al fine di velocizzare la risposta a tali problematiche?
+- *Integrazione con Altri Strumenti di Sicurezza:* Esistono 
 strumenti di sicurezza specifici (ad esempio, sistemi S.I.E.M(Security Information and Event Management), firewall, 
 antivirus) con cui ritiene che il nostro tool dovrebbe integrarsi per 
 massimizzare l'efficacia complessiva della sicurezza? Come immagina 
 questa integrazione che supporta le operazioni di sicurezza quotidiane?
 
-### Requisiti di Conformità:
+**Requisiti di Conformità:**
 
-1. *Normative e Standard:* Quali normative o standard di sicurezza sono di primaria importanza per la vostra azienda? In che modo il tool proposto potrebbe contribuire alla conformità con questi requisiti?
-2. *Reportistica per Audit:* Quali tipi di report o documentazione ritiene indispensabili per agevolare le attività di audit e dimostrare la conformità alle normative di sicurezza?
+- *Normative e Standard:* Quali normative o standard di sicurezza sono di primaria importanza per la vostra azienda? In che modo il tool proposto potrebbe contribuire alla conformità con questi requisiti?
+- *Reportistica per Audit:* Quali tipi di report o documentazione ritiene indispensabili per agevolare le attività di audit e dimostrare la conformità alle normative di sicurezza?
 
-### Gestione Utenti e Autorizzazioni:
+**Gestione Utenti e Autorizzazioni:**
+- *Accesso e Controllo:* Come vorrebbe gestire l'accesso e definire le autorizzazioni del tool per garantire che gli utenti accedano solo alle informazioni pertinenti al loro ruolo? Ci sono livelli di personalizzazione che ritiene necessari?
+- *Audit delle Attività:* Quanto ritiene importante una registrazione dettagliata delle attività degli utenti per fini di audit e sicurezza?
 
-1. *Accesso e Controllo:* Come vorrebbe gestire l'accesso e definire le autorizzazioni del tool per garantire che gli utenti accedano solo alle informazioni pertinenti al loro ruolo? Ci sono livelli di personalizzazione che ritiene necessari?
-2. *Audit delle Attività:* Quanto ritiene importante una registrazione dettagliata delle attività degli utenti per fini di audit e sicurezza?
+**Prestazioni e Vantaggi Aziendali:**
+- *Implementazione nella Rete:* Ci sono requisiti specifici per l'implementazione del tool nella rete aziendale? Come si aspetta che il tool migliori concretamente le prestazioni complessive della sicurezza?
+- *Supporto Tecnico:* Quali livelli di supporto tecnico ritiene essenziali per garantire un'implementazione senza intoppi e la risoluzione tempestiva di eventuali problemi?
+- *Motivazione economiche:* Ritiene che avrebbe senso investire in un tool che va ad automizzare un processo/attività aziendale già svolto attualmente da una persona? **
 
-### Prestazioni e Vantaggi Aziendali:
+**Community e Possibili Falsi Positivi:**
 
-1. *Implementazione nella Rete:* Ci sono requisiti specifici per l'implementazione del tool nella rete aziendale? Come si aspetta che il tool migliori concretamente le prestazioni complessive della sicurezza?
-2. *Supporto Tecnico:* Quali livelli di supporto tecnico ritiene essenziali per garantire un'implementazione senza intoppi e la risoluzione tempestiva di eventuali problemi?
-3. *Motivazione economiche:* Ritiene che avrebbe senso investire in un tool che va ad automizzare un processo/attività aziendale già svolto attualmente da una persona? **
-
-### Community e Possibili Falsi Positivi:
-
-1. *Coinvolgimento della Community:* Ritiene importante coinvolgere la community nella gestione delle CVE? In che modo il tool potrebbe beneficiare di questo coinvolgimento?
-2. *Gestione dei Falsi Positivi:* Come gestirebbe il potenziale problema dei falsi positivi nel contesto delle CVE? Ci sono approcci specifici che reputa efficaci per ridurre al minimo i falsi positivi e mantenere l'affidabilità delle segnalazioni?
+- *Coinvolgimento della Community:* Ritiene importante coinvolgere la community nella gestione delle CVE? In che modo il tool potrebbe beneficiare di questo coinvolgimento?
+- *Gestione dei Falsi Positivi:* Come gestirebbe il potenziale problema dei falsi positivi nel contesto delle CVE? Ci sono approcci specifici che reputa efficaci per ridurre al minimo i falsi positivi e mantenere l'affidabilità delle segnalazioni?
 
 ### Questionario community
 
@@ -198,7 +195,7 @@ L'obiettivo principale di questa intervista è ottenere una comprensione approfo
 **Ragioni dell'Intervista:**
 Sottoporre un questionario alla community online della cybersecurity rappresenta un metodo rapido ed efficiente per acquisire una vasta quantità di informazioni, arricchendo così il nostro tool. La diversità di prospettive e competenze presenti nella community offre un'opportunità preziosa per catturare una panoramica completa delle esigenze e delle aspettative degli utenti nel campo della sicurezza informatica. Questo approccio ci consente di rafforzare la robustezza del tool, assicurando che sia progettato in modo rispondere in modo ottimale alle dinamiche e alle sfide del contesto cyber.
 
-###Questionario
+### Domande
 
 1. Quali sono le principali fonti da cui ottieni informazioni sulle CVE? 
     1. Siti di notizie di cybersecurity
