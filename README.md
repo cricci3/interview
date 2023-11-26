@@ -116,6 +116,7 @@ manuale per portare dei vantaggi tangibili?
 
 - Gestione dei Falsi Positivi: come gestirebbe il potenziale problema dei falsi positivi nel contesto delle informazioni trovate? Ci sono approcci specifici che reputa efficaci per ridurre al minimo i falsi positivi e mantenere l'affidabilità delle segnalazioni?
 
+***
 
 ### Software Engineer
 
@@ -173,6 +174,7 @@ Attraverso questa intervista, miriamo a ottenere una comprensione dettagliata de
 
 - Integrazione di altri strumenti: ci sono strumenti o piattaforme esistenti che consiglierebbe di integrare con il tuo tool per ottenere risultati migliori?
 
+***
 
 ### Security Manager
 **Scoperta dei Requisiti:**
@@ -222,6 +224,8 @@ L'intervista ha l'obiettivo di ottenere una comprensione approfondita delle spec
 - Supporto tecnico: quali livelli di supporto tecnico ritiene essenziali per garantire un'implementazione senza intoppi e la risoluzione tempestiva di eventuali problemi?
 
 - Motivazione economiche: ritiene che avrebbe senso investire in un tool che va ad automizzare un processo/attività aziendale già svolto attualmente da una persona?
+
+***
 
 ### Questionario community
 
