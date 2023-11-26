@@ -97,6 +97,10 @@ Attraverso questa intervista, miriamo a ottenere un quadro completo delle esigen
     - Personalizzazione: preferisce un tool con opzioni di personalizzazione, ad esempio, la possibilità di configurare i siti da cui attingere informazioni o definire criteri di ricerca avanzati?
 - **Altre Considerazioni:**
     - Notifiche e alert: ritiene importante ricevere notifiche o alert immediati in caso di nuove informazioni rilevanti per una CVE specifica?
+    - Tempi di studio: quanto tempo mediamente impiega per studiare le informazioni relative a una vulnerabilità informatica quando lo fa manualmente?
+    - Performance: in termini di tempo quale pensa che debba essere il vantaggio portato dal tool rispetto alla ricerca manuale per portare dei vantaggi tangibili?
+    - Gestione dei Falsi Positivi: come gestirebbe il potenziale problema dei falsi positivi nel contesto delle informazioni trovate? Ci sono approcci specifici che reputa efficaci per ridurre al minimo i falsi positivi e mantenere l'affidabilità delle segnalazioni?
+
 
 ### Software Engineer
 
@@ -116,7 +120,7 @@ Attraverso questa intervista, miriamo a ottenere una comprensione dettagliata de
 
 ### Intervista a Software engineer
 
-- **Sull'Analisi del Sentimento:**
+**Sull'Analisi del Sentimento:**
     - Pre-elaborazione del testo: quali passaggi di pre-elaborazione del testo considera fondamentali per ottenere risultati accurati nell'analisi del sentimento?
     - Addestramento del modello: ritiene che si ottengano prestazioni migliori utilizzando modelli pre-addestrati per l'analisi del sentimento o attraverso la creazione di un modello personalizzato basato sui dati specifici?
     - Esistono modelli già addestrati in grado di trattare testi relativi al dominio della cybersecurity?
@@ -125,11 +129,13 @@ Attraverso questa intervista, miriamo a ottenere una comprensione dettagliata de
     - Lingua e contesto: ci sono considerazioni specifiche per l'analisi del sentimento in lingue o contesti particolari che ritiene importanti?
     - Adattabilità a diverse lingue: come affronterebbe la sfida dell'adattamento del tool per l'analisi del sentimento in diverse lingue? Ci sono modelli o tecniche che consiglierebbe in questo contesto?
     - Come trattarebbe l'incertezza nei risultati dell'analisi del sentimento? Ha suggerimenti su come gestire i casi in cui il testo potrebbe avere ambiguità? Come comunicare efficacemente l'incertezza agli utenti finali del tool?
-- **Raccolta di Contenuti Online:**
+
+**Raccolta di Contenuti Online:**
     - Web Scraping vs API: ritiene che sia meglio utilizzare il web scraping o l'accesso tramite API per raccogliere contenuti online? Ha considerazioni specifiche su quando utilizzare uno o l'altro?
     - Etica e limiti del Web Scraping: quali considerazioni etiche suggerirebbe durante il processo di web scraping? Come eviterebbe di violare i termini di servizio o le normative sulla privacy?
     - Controllo della qualità dei dati: come si fa a garantire la qualità dei dati raccolti tramite web scraping o API? Ha suggerimenti su come affrontare la presenza di informazioni inaffidabili o obsolete?
-- **Sviluppo del Tool:**
+
+**Sviluppo del Tool:**
     - Linguaggio di programmazione: quali linguaggi di programmazione ritiene più adatti per lo sviluppo del tool? Ha preferenze specifiche?
     - Tecniche di Sentiment Analysis: quali strumenti o framework di NLP (Natural Language Processing) ritiene più efficaci per l'analisi del sentimento? (Ad esempio, NLTK, spaCy, TensorFlow, etc.)
     - Architettura del software: come suggerirebbe di strutturare l'architettura del software per massimizzare l'efficienza e la manutenibilità?
@@ -153,37 +159,26 @@ L'intervista ha l'obiettivo di ottenere una comprensione approfondita delle spec
 ### Intervista a Security Manager
 
 **Gestione delle CVE:**
-- *Prioritizzazione delle Vulnerabilità:* Quali criteri specifici vengono utilizzati per dare priorità alle CVE, e in che modo ritiene che il nostro tool possa facilitare o migliorare questo processo?
-- *Comunicazione delle Minacce:* Come pensa che una comunicazione efficiente delle minacce, attraverso il nostro tool, possa migliorare la reattività aziendale? Ci sono aspetti specifici che ritiene cruciali?
-- *Analisi dell'Impatto Aziendale:* Quali informazioni ritiene essenziali per valutare l'impatto potenziale di una CVE sulle operazioni aziendali? In che modo il nostro tool potrebbe portare beneficio a questa analisi?
+- Prioritizzazione delle vulnerabilità: quali criteri specifici vengono utilizzati per dare priorità alle CVE, e in che modo ritiene che il nostro tool possa facilitare o migliorare questo processo?
+- Comunicazione delle minacce: come pensa che una comunicazione efficiente delle minacce, attraverso il nostro tool, possa migliorare la reattività aziendale? Ci sono aspetti specifici che ritiene cruciali?
+- Analisi dell'impatto aziendale: quali informazioni ritiene essenziali per valutare l'impatto potenziale del tool sulle operazioni aziendali? In che modo il nostro tool potrebbe portare beneficio a questa analisi?
 
 **Integrazione con Strumenti Esistenti:**
-
-- *Gestione degli Incidenti:* In che modo preferirebbe che il nostro tool si potrebbe integrare con i processi di gestione degli incidenti esistenti? Quali informazioni dovrebbero essere automaticamente condivise al fine di velocizzare la risposta a tali problematiche?
-- *Integrazione con Altri Strumenti di Sicurezza:* Esistono 
-strumenti di sicurezza specifici (ad esempio, sistemi S.I.E.M(Security Information and Event Management), firewall, 
-antivirus) con cui ritiene che il nostro tool dovrebbe integrarsi per 
-massimizzare l'efficacia complessiva della sicurezza? Come immagina 
-questa integrazione che supporta le operazioni di sicurezza quotidiane?
+- Gestione degli incidenti: in che modo preferirebbe che il nostro tool si integrasse con i processi di gestione degli incidenti esistenti? Quali informazioni dovrebbero essere automaticamente condivise al fine di velocizzare la risposta a tali problematiche?
+- Integrazione con altri strumenti di sicurezza: esistono strumenti di sicurezza specifici, ad esempio sistemi SIEM(Security Information and Event Management), firewall o antivirus, con cui ritiene che il nostro tool dovrebbe integrarsi per massimizzare l'efficacia complessiva della sicurezza? Come immagina questa integrazione a supporto delle operazioni di sicurezza quotidiane?
 
 **Requisiti di Conformità:**
-
-- *Normative e Standard:* Quali normative o standard di sicurezza sono di primaria importanza per la vostra azienda? In che modo il tool proposto potrebbe contribuire alla conformità con questi requisiti?
-- *Reportistica per Audit:* Quali tipi di report o documentazione ritiene indispensabili per agevolare le attività di audit e dimostrare la conformità alle normative di sicurezza?
+- Normative e Standard: quali normative o standard di sicurezza sono di primaria importanza per la vostra azienda? In che modo il tool proposto potrebbe contribuire alla conformità con questi requisiti?
+- Reportistica per Audit: quali tipi di report o documentazione ritiene indispensabili per agevolare le attività di audit e dimostrare la conformità alle normative di sicurezza?
 
 **Gestione Utenti e Autorizzazioni:**
-- *Accesso e Controllo:* Come vorrebbe gestire l'accesso e definire le autorizzazioni del tool per garantire che gli utenti accedano solo alle informazioni pertinenti al loro ruolo? Ci sono livelli di personalizzazione che ritiene necessari?
-- *Audit delle Attività:* Quanto ritiene importante una registrazione dettagliata delle attività degli utenti per fini di audit e sicurezza?
+- Accesso e controllo: come vorrebbe gestire l'accesso e definire le autorizzazioni del tool per garantire che gli utenti accedano solo alle informazioni pertinenti al loro ruolo? Ci sono livelli di personalizzazione che ritiene necessari?
+- Audit delle attività: quanto ritiene importante una registrazione dettagliata delle attività degli utenti per fini di audit e sicurezza?
 
 **Prestazioni e Vantaggi Aziendali:**
-- *Implementazione nella Rete:* Ci sono requisiti specifici per l'implementazione del tool nella rete aziendale? Come si aspetta che il tool migliori concretamente le prestazioni complessive della sicurezza?
-- *Supporto Tecnico:* Quali livelli di supporto tecnico ritiene essenziali per garantire un'implementazione senza intoppi e la risoluzione tempestiva di eventuali problemi?
-- *Motivazione economiche:* Ritiene che avrebbe senso investire in un tool che va ad automizzare un processo/attività aziendale già svolto attualmente da una persona? **
-
-**Community e Possibili Falsi Positivi:**
-
-- *Coinvolgimento della Community:* Ritiene importante coinvolgere la community nella gestione delle CVE? In che modo il tool potrebbe beneficiare di questo coinvolgimento?
-- *Gestione dei Falsi Positivi:* Come gestirebbe il potenziale problema dei falsi positivi nel contesto delle CVE? Ci sono approcci specifici che reputa efficaci per ridurre al minimo i falsi positivi e mantenere l'affidabilità delle segnalazioni?
+- Implementazione nella rete aziendale: ci sono requisiti specifici per l'implementazione del tool nella rete aziendale? Come si aspetta che il tool migliori concretamente le prestazioni complessive della sicurezza?
+- Supporto tecnico: quali livelli di supporto tecnico ritiene essenziali per garantire un'implementazione senza intoppi e la risoluzione tempestiva di eventuali problemi?
+- Motivazione economiche: ritiene che avrebbe senso investire in un tool che va ad automizzare un processo/attività aziendale già svolto attualmente da una persona?
 
 ### Questionario community
 
