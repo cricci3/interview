@@ -87,34 +87,34 @@ Attraverso questa intervista, miriamo a ottenere un quadro completo delle esigen
 
 **Requisiti Tecnici:**
 
-    - Sorgenti di informazioni: quali siti web o piattaforme online ritiene che siano più affidabili e ricche di informazioni riguardo alle CVE? Utilizza anche social network come _Reddit_ o _X_ per informarsi? Se si, quali canali/subreddit?
+- Sorgenti di informazioni: quali siti web o piattaforme online ritiene che siano più affidabili e ricche di informazioni riguardo alle CVE? Utilizza anche social network come _Reddit_ o _X_ per informarsi? Se si, quali canali/subreddit?
 
-    - Tipi di informazioni rilevanti: quali tipi di informazioni relative a una vulnerabilità ritiene siano fondamentali per un'analisi approfondita?
+- Tipi di informazioni rilevanti: quali tipi di informazioni relative a una vulnerabilità ritiene siano fondamentali per un'analisi approfondita?
 
-    - Parametri di ricerca: quali parametri ritiene siano cruciali per una ricerca efficace di informazioni su una CVE? Ad esempio, versioni del software, dettagli tecnici specifici, etc.
+- Parametri di ricerca: quali parametri ritiene siano cruciali per una ricerca efficace di informazioni su una CVE? Ad esempio, versioni del software, dettagli tecnici specifici, etc.
 
-    - Ci sono particolari dati tecnici, come exploit code, patch, o analisi di impatto, che vorrebbe includere nel risultato della ricerca?
+- Ci sono particolari dati tecnici, come exploit code, patch, o analisi di impatto, che vorrebbe includere nel risultato della ricerca?
 
-    - Strumenti attualmente usati: attualmente usa strumenti simili per ottenere informazioni sulle CVE? Se sì, quali funzionalità apprezza di più o ritiene siano carenti?
+- Strumenti attualmente usati: attualmente usa strumenti simili per ottenere informazioni sulle CVE? Se sì, quali funzionalità apprezza di più o ritiene siano carenti?
 
 **Requisiti Grafici:**
 
-    - GUI: quali elementi visivi ritiene siano importanti nell'interfaccia utente del tool? Preferisce un'interfaccia minimalista o una più dettagliata?
+- GUI: quali elementi visivi ritiene siano importanti nell'interfaccia utente del tool? Preferisce un'interfaccia minimalista o una più dettagliata?
 
-    - Formato dei risultati: come preferirebbe ricevere i risultati delle ricerche? Ci sono formati specifici di output che trova più pratici? (Ad esempio, un elenco strutturato, grafici, ecc.)
+- Formato dei risultati: come preferirebbe ricevere i risultati delle ricerche? Ci sono formati specifici di output che trova più pratici? (Ad esempio, un elenco strutturato, grafici, ecc.)
 
-    - Personalizzazione: preferisce un tool con opzioni di personalizzazione, ad esempio, la possibilità di configurare i siti da cui attingere informazioni o definire criteri di ricerca avanzati?
+- Personalizzazione: preferisce un tool con opzioni di personalizzazione, ad esempio, la possibilità di configurare i siti da cui attingere informazioni o definire criteri di ricerca avanzati?
 
 **Altre Considerazioni:**
 
-    - Notifiche e alert: ritiene importante ricevere notifiche o alert immediati in caso di nuove informazioni rilevanti per una CVE specifica?
+- Notifiche e alert: ritiene importante ricevere notifiche o alert immediati in caso di nuove informazioni rilevanti per una CVE specifica?
 
-    - Tempi di studio: quanto tempo mediamente impiega per studiare le informazioni relative a una vulnerabilità informatica quando lo fa manualmente?
+- Tempi di studio: quanto tempo mediamente impiega per studiare le informazioni relative a una vulnerabilità informatica quando lo fa manualmente?
 
-    - Performance: in termini di tempo quale pensa che debba essere il vantaggio portato dal tool rispetto alla ricerca 
+- Performance: in termini di tempo quale pensa che debba essere il vantaggio portato dal tool rispetto alla ricerca 
 manuale per portare dei vantaggi tangibili?
 
-    - Gestione dei Falsi Positivi: come gestirebbe il potenziale problema dei falsi positivi nel contesto delle informazioni trovate? Ci sono approcci specifici che reputa efficaci per ridurre al minimo i falsi positivi e mantenere l'affidabilità delle segnalazioni?
+- Gestione dei Falsi Positivi: come gestirebbe il potenziale problema dei falsi positivi nel contesto delle informazioni trovate? Ci sono approcci specifici che reputa efficaci per ridurre al minimo i falsi positivi e mantenere l'affidabilità delle segnalazioni?
 
 
 ### Software Engineer
@@ -137,41 +137,41 @@ Attraverso questa intervista, miriamo a ottenere una comprensione dettagliata de
 
 **Sull'Analisi del Sentimento:**
 
-    - Pre-elaborazione del testo: quali passaggi di pre-elaborazione del testo considera fondamentali per ottenere risultati accurati nell'analisi del sentimento?
+- Pre-elaborazione del testo: quali passaggi di pre-elaborazione del testo considera fondamentali per ottenere risultati accurati nell'analisi del sentimento?
 
-    - Addestramento del modello: ritiene che si ottengano prestazioni migliori utilizzando modelli pre-addestrati per l'analisi del sentimento o attraverso la creazione di un modello personalizzato basato sui dati specifici?
+- Addestramento del modello: ritiene che si ottengano prestazioni migliori utilizzando modelli pre-addestrati per l'analisi del sentimento o attraverso la creazione di un modello personalizzato basato sui dati specifici?
 
-    - Esistono modelli già addestrati in grado di trattare testi relativi al dominio della cybersecurity?
+- Esistono modelli già addestrati in grado di trattare testi relativi al dominio della cybersecurity?
 
-    - Selezione del modello di NLP: quali criteri suggerirebbe per la selezione di un modello NLP specifico per l'analisi del sentimento? Cosa ritiene importante nella scelta di un approccio di analisi del testo?
+- Selezione del modello di NLP: quali criteri suggerirebbe per la selezione di un modello NLP specifico per l'analisi del sentimento? Cosa ritiene importante nella scelta di un approccio di analisi del testo?
 
-    - Personalizzazione del modello: ritiene che un modello di analisi del sentimento debba essere addestrato sui dati specifici dell'utente? In tal caso, come gestirebbe questa personalizzazione?
+- Personalizzazione del modello: ritiene che un modello di analisi del sentimento debba essere addestrato sui dati specifici dell'utente? In tal caso, come gestirebbe questa personalizzazione?
 
-    - Lingua e contesto: ci sono considerazioni specifiche per l'analisi del sentimento in lingue o contesti particolari che ritiene importanti?
+- Lingua e contesto: ci sono considerazioni specifiche per l'analisi del sentimento in lingue o contesti particolari che ritiene importanti?
 
-    - Adattabilità a diverse lingue: come affronterebbe la sfida dell'adattamento del tool per l'analisi del sentimento in diverse lingue? Ci sono modelli o tecniche che consiglierebbe in questo contesto?
+- Adattabilità a diverse lingue: come affronterebbe la sfida dell'adattamento del tool per l'analisi del sentimento in diverse lingue? Ci sono modelli o tecniche che consiglierebbe in questo contesto?
 
-    - Come trattarebbe l'incertezza nei risultati dell'analisi del sentimento? Ha suggerimenti su come gestire i casi in cui il testo potrebbe avere ambiguità? Come comunicare efficacemente l'incertezza agli utenti finali del tool?
+- Come trattarebbe l'incertezza nei risultati dell'analisi del sentimento? Ha suggerimenti su come gestire i casi in cui il testo potrebbe avere ambiguità? Come comunicare efficacemente l'incertezza agli utenti finali del tool?
 
 **Raccolta di Contenuti Online:**
 
-    - Web Scraping vs API: ritiene che sia meglio utilizzare il web scraping o l'accesso tramite API per raccogliere contenuti online? Ha considerazioni specifiche su quando utilizzare uno o l'altro?
+- Web Scraping vs API: ritiene che sia meglio utilizzare il web scraping o l'accesso tramite API per raccogliere contenuti online? Ha considerazioni specifiche su quando utilizzare uno o l'altro?
 
-    - Etica e limiti del Web Scraping: quali considerazioni etiche suggerirebbe durante il processo di web scraping? Come eviterebbe di violare i termini di servizio o le normative sulla privacy?
+- Etica e limiti del Web Scraping: quali considerazioni etiche suggerirebbe durante il processo di web scraping? Come eviterebbe di violare i termini di servizio o le normative sulla privacy?
 
-    - Controllo della qualità dei dati: come si fa a garantire la qualità dei dati raccolti tramite web scraping o API? Ha suggerimenti su come affrontare la presenza di informazioni inaffidabili o obsolete?
+- Controllo della qualità dei dati: come si fa a garantire la qualità dei dati raccolti tramite web scraping o API? Ha suggerimenti su come affrontare la presenza di informazioni inaffidabili o obsolete?
 
 **Sviluppo del Tool:**
 
-    - Linguaggio di programmazione: quali linguaggi di programmazione ritiene più adatti per lo sviluppo del tool? Ha preferenze specifiche?
+- Linguaggio di programmazione: quali linguaggi di programmazione ritiene più adatti per lo sviluppo del tool? Ha preferenze specifiche?
 
-    - Tecniche di Sentiment Analysis: quali strumenti o framework di NLP (Natural Language Processing) ritiene più efficaci per l'analisi del sentimento? (Ad esempio, NLTK, spaCy, TensorFlow, etc.)
+- Tecniche di Sentiment Analysis: quali strumenti o framework di NLP (Natural Language Processing) ritiene più efficaci per l'analisi del sentimento? (Ad esempio, NLTK, spaCy, TensorFlow, etc.)
 
-    - Architettura del software: come suggerirebbe di strutturare l'architettura del software per massimizzare l'efficienza e la manutenibilità?
+- Architettura del software: come suggerirebbe di strutturare l'architettura del software per massimizzare l'efficienza e la manutenibilità?
 
-    - Scalabilità: quali considerazioni bisogna tenere in considerazione per garantire la scalabilità del tool, specialmente se si prevede un aumento del carico?
+- Scalabilità: quali considerazioni bisogna tenere in considerazione per garantire la scalabilità del tool, specialmente se si prevede un aumento del carico?
 
-    - Integrazione di altri strumenti: ci sono strumenti o piattaforme esistenti che consiglierebbe di integrare con il tuo tool per ottenere risultati migliori?
+- Integrazione di altri strumenti: ci sono strumenti o piattaforme esistenti che consiglierebbe di integrare con il tuo tool per ottenere risultati migliori?
 
 
 ### Security Manager
