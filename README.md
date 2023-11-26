@@ -52,7 +52,7 @@ In caso di riscontro positivo durante le interviste, procederemo con fiducia all
 
 ## Attività del workflow
 
-### Intervista a security specialist
+### Security specialist
 
 **Scoperta dei Requisiti:**
 
@@ -72,7 +72,7 @@ La scelta di intervistare questo stakeholder, quindi, si basa sulla consapevolez
 
 Attraverso questa intervista, miriamo a ottenere un quadro completo delle esigenze e delle aspettative dello Specialista di Sicurezza, garantendo che il tool che stiamo sviluppando non solo semplifichi il processo di gestione delle CVE, ma lo ottimizzi in modo specifico per le necessità quotidiane di chi opera in questo settore critico.
 
-### 2. Intervista a security specialist
+### 2. Intervista a Security Specialist
 
 - **Requisiti Tecnici:**
     - **Sorgenti di Informazioni:** Quali siti web o piattaforme online ritiene che siano più affidabili e ricche di informazioni riguardo alle CVE? Utilizzi anche social network come Reddit o X per informarti? Se si, quali canali/subreddit?
@@ -91,7 +91,7 @@ Attraverso questa intervista, miriamo a ottenere un quadro completo delle esigen
 - **Altre Considerazioni:**
     - **Strumenti Attuali:** Usa attualmente strumenti simili per ottenere informazioni sulle CVE? Se sì, quali funzionalità apprezza di più o ritiene siano carenti?
 
-### 1. Intervista a SW Engineer
+### Software Engineer
 
 **Scoperta dei Requisiti:**
 
@@ -107,7 +107,7 @@ La sentiment analysis è una disciplina complessa che richiede una profonda comp
 
 Attraverso questa intervista, miriamo a ottenere una comprensione dettagliata delle competenze tecniche necessarie per sviluppare un tool di sentiment analysis altamente efficace. L'obiettivo è garantire che il tool non solo soddisfi i requisiti funzionali per eseguire la sentiment analysis, ma che sia anche tecnicamente robusto e allineato alle migliori pratiche nello sviluppo di soluzioni di analisi del sentiment.
 
-### 2. Intervista a SW engineer
+### Intervista a Software engineer
 
 - **Sull'Analisi del Sentimento:**
     - **Metodi di Analisi del Sentimento:** Quali strumenti o librerie di Natural Language Processing (NLP) ritiene più efficaci per l'analisi del sentimento? (Ad esempio, NLTK, spaCy, TensorFlow, etc.)
@@ -133,8 +133,7 @@ Attraverso questa intervista, miriamo a ottenere una comprensione dettagliata de
     - **Integrazione di Altri Strumenti:** Ci sono strumenti o piattaforme esistenti che consiglierebbe di integrare con il tuo tool per ottenere risultati migliori?
     
 
-### 1. Intervista a Security Manager
-
+### Security Manager
 **Scoperta dei Requisiti:**
 
 L'obiettivo principale di questa intervista è acquisire una comprensione approfondita delle esigenze specifiche di un Security Manager in relazione al tool che stiamo sviluppando. L'intento è individuare in modo dettagliato i requisiti chiave necessari per soddisfare le esigenze di gestione e monitoraggio della sicurezza delle CVE, concentrando l'attenzione sulle prestazioni, i vantaggi aziendali e le motivazioni per l'adozione del nuovo strumento.
@@ -147,7 +146,7 @@ Durante l'intervista, cercheremo di mettere in luce le funzionalità del tool ch
 
 L'intervista ha l'obiettivo di ottenere una comprensione approfondita delle specifiche esigenze del Security Manager, con l'intento di guidare lo sviluppo di un tool che non solo fornisca informazioni tecniche dettagliate, ma che offra vantaggi tangibili e prestazioni ottimali. Questa analisi mira a creare un quadro completo delle necessità del Security Manager, assicurando che il nostro strumento sia progettato e sviluppato per rispondere in modo efficace alle sfide quotidiane della gestione della sicurezza informatica. L'attenzione è posta non solo sulla fornitura di dati dettagliati, ma anche sulla creazione di un valore concreto attraverso l'ottimizzazione delle prestazioni e la realizzazione di benefici misurabili per l'intera organizzazione.
 
-### 2. Intervista a Security Manager
+### Intervista a Security Manager
 
 **Gestione delle CVE:**
 - *Prioritizzazione delle Vulnerabilità:* Quali criteri specifici vengono utilizzati per dare priorità alle CVE, e in che modo ritiene che il nostro tool possa facilitare o migliorare questo processo?
@@ -309,14 +308,6 @@ Sottoporre un questionario alla community online della cybersecurity rappresenta
     delle CVE e sulle esigenze future.
     
 11. Domande Aperte
-    1. **Quali funzionalità trovi più utili o, al contrario, mancanti nei tuoi attuali strumenti o processi?**
-        
-        __
-        
-    2.  **In che modo, il tool sviluppato, potrebbe influenzare la tua percezione e gestione delle vulnerabilità?**
-        
-        __
-        
-    3. **Come attualmente raccogli e gestisci le informazioni sulle CVE? Ci sono strumenti o processi che ritieni particolarmente utili?**
-        
-        __
+    1. Quali funzionalità trovi più utili o, al contrario, mancanti nei tuoi attuali strumenti o processi?
+    2. In che modo, il tool sviluppato, potrebbe influenzare la tua percezione e gestione delle vulnerabilità?
+    3. Come attualmente raccogli e gestisci le informazioni sulle CVE? Ci sono strumenti o processi che ritieni particolarmente utili?**
