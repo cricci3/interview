@@ -30,8 +30,11 @@ Questa ricerca evidenzia l’importanza di considerare tali limitazioni e sottol
 Si è quindi pensato di sviluppare un sistema/tool che prende in input un codice CVE e raccoglie da diverse fonti online contenuti rilevanti rispetto all’input. Successivamente, i contenuti raccolti vengono sottoposti ad una Sentiment Analysis effettuata tramite machine-learning al fine di estrapolare un “indicatore di interesse” relativo alla vulnerabilità in questione. Tale indicatore potrà fornire utili informazioni circa la percezione degli utenti riguardo la gravità e l’importanza della vulnerabilità stessa. Il sistema di sentiment analysis sviluppato, grazie alla sua capacità di analizzare automaticamente numerose fonti di informazioni, fornisce un punteggio sentimentale relativo a una specifica CVE.
 
 ## Elicitation Strategy
-Per sviluppare il tool in studio, abbiamo pensato a quattro possibili stakeholder:
+
 ### Stakeholders
+
+Per sviluppare il tool in studio, abbiamo pensato a quattro possibili stakeholder:
+
 - **Security Specialist**: nell'ambito delle attività quotidiane di un Security Specialist, si pone particolare attenzione all'analisi delle vulnerabilità, identificate mediante codici CVE, e alla successiva identificazione e valutazione di tali vulnerabilità al fine di comprenderne la gravità. Questo professionista riveste un ruolo cruciale nel contesto della sicurezza informatica, contribuendo in modo significativo all'identificazione e alla mitigazione dei rischi. La sua esperienza e competenza specialistica lo collocano in una posizione chiave, influenzando direttamente l'efficacia delle strategie di sicurezza adottate.
 La buona riuscita del tool proposto rappresenta un interesse particolare per questo stakeholder, in quanto potrebbe offrire uno strumento che ottimizza il processo di analisi delle CVE, consentendo un risparmio di tempo e, allo stesso tempo, fornendo un supporto automatizzato per l'analisi delle vulnerabilità. Intendiamo coinvolgere questo stakeholder attraverso un'intervista approfondita, al fine di acquisire una prospettiva più dettagliata sulla sua expertise specifica in materia di sicurezza informatica. La sua partecipazione attiva contribuirà in modo significativo all'analisi del contesto di sicurezza del progetto, garantendo un approccio informatico robusto e adeguato alle sfide emergenti nel panorama della sicurezza informatica. Nello specifico questo stakeholder rappresenterà l'utilizzatore finale del tool.
 
