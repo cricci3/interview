@@ -48,12 +48,12 @@ Per sfruttare appieno le risorse e le competenze presenti in questa comunità, s
 L'interazione con la comunità online della cybersecurity rappresenta una risorsa inestimabile, consentendo una partecipazione attiva degli esperti nel plasmare e perfezionare il nostro tool.
 
 
-| Stakeholder             | Potere | Interesse | Strategia         |
-|:------------------------:|:------:|:---------:|:-----------------:|
-| Security Specialist     | Basso  | Alto      | Pienamente coinvolto |
-| Software Engineer        | Basso  | Alto     | Sforzo minimo     |
-| Security Manager         | Alto   | Alto     | Soddisfare        |
-| Cybersecurity Community  | Basso  | Basso      | Sforzo minimo     |
+| Stakeholder             | Potere | Interesse | Strategia                   | Motivazione                                           |
+|:------------------------:|:------:|:---------:|:---------------------------:|:-----------------------------------------------------:|
+| Security Specialist     | Basso  | Alto      | Coinvolgimento massimo      | Ottimizzare il tool alle attività specifiche del Security Specialist attraverso una comprensione dettagliata delle sue esigenze. |
+| Software Engineer        | Basso  | Alto      | Coinvolgimento limitato     | Acquisire input tecnici senza sovraccaricare il Software Engineer, massimizzando il beneficio delle sue competenze. |
+| Security Manager         | Alto   | Alto      | Soddisfazione delle esigenze | Allineare il tool alle strategie di sicurezza complessive dell'organizzazione soddisfacendo le esigenze di colui che avrà il ruolo decisionale |
+| Cybersecurity Community  | Basso  | Basso     | Coinvolgimento limitato     | Raccogliere input senza richiedere un impegno prolungato, sfruttando le competenze della community attraverso un questionario. |
 
 
 
@@ -256,7 +256,7 @@ Sottoporre un questionario alla community online della cybersecurity rappresenta
     4. X
     5. Altro 
     
-    **Motivazione:** Comprendere da dove gli esperti di sicurezza attingono le loro informazioni è essenziale per costruire un tool di sentiment analysis che raccoglie informazioni dalle giuste fonti. Identificare le fonti più utilizzate può anche aiutare a migliorare l'efficacia della distribuzione delle informazioni.
+    **Motivazione:** Comprendere le fonti preferite degli esperti di sicurezza aiuta a costruire un tool di sentiment analysis che attinge alle giuste fonti, migliorando l'efficacia della distribuzione delle informazioni.
     
 2. Quali criteri utilizzi per valutare la gravità di una CVE?
     1. Impatto aziendale
