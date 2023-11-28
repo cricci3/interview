@@ -341,24 +341,25 @@ Sottoporre un questionario alla community online della cybersecurity rappresenta
 ***
 
 
-## Presentazione Prototipo 
+## Sviluppo Prototipo 
 
-**Scoperta dei Requisiti:**  Tramite questa fase, miriamo a identificare i requisiti legati allo sviluppo del nostro tool, cercando di individuare eventuali specifiche sia funzionali che non funzionali che potrebbero essere sfuggite durante le precedenti interazioni con gli stakeholders.
+**Scoperta dei Requisiti:**  Tramite questa fase, miriamo a identificare eventuali specifiche sia funzionali che non funzionali che potrebbero essere sfuggite durante le precedenti interazioni con gli stakeholders.
 
-**Descrizione:** Durante questa fase, si vuole trasformare i requisiti chiave, identificati durante le precedenti fasi del workflow, in una prima implementazione. L'obiettivo è ottenere una prima versione funzionante del tool, al fine di ottenere un feedback sulla corretta interpretazione dei requisiti raccolti durante le interviste. Il prototipo dovrebbe manifestare le funzionalità essenziali e l'esperienza utente desiderata, presentando una rappresentazione visiva e pratica dell'applicazione.
+**Descrizione:** lo sviluppo di un prototipo permette di trasformare i requisiti chiave, identificati durante le precedenti fasi del workflow, in una prima implementazione. L'obiettivo è ottenere una prima versione funzionante del tool, al fine di ottenere un feedback sulla corretta interpretazione dei requisiti raccolti durante le interviste. Il prototipo dovrebbe manifestare le funzionalità essenziali e l'esperienza utente desiderata, presentando una rappresentazione visiva e pratica dell'applicazione.
 
 **Stakeholders coinvolti**: 
 - Security specialist
 - Security manager
 
-Gli specialisti di sicurezza, come utenti primari dell'applicazione in via di sviluppo, sono fondamentali per garantire che essa risponda appieno alle loro esigenze lavorative. Inoltre occhio esperto del security manager può essere decisivo per scovare delle lacune che potrebbero essere state dimenticate o semplicemente mal interpretate.
+Gli specialisti di sicurezza, come utenti primari dell'applicazione in via di sviluppo, sono fondamentali per garantire che essa risponda appieno alle loro esigenze lavorative. Inoltre l'occhio esperto del security manager può essere decisivo per scovare delle lacune che potrebbero essere state dimenticate o semplicemente mal interpretate.
 
 **Ragione:** 
-Le ragione dietro alla scelta di un prototipo a differenza di un mock up dipendono dal fatto, che il prototipo rappresenta una base del software , mentre il mockup verrebbe scartato in fase di approvazione, dunque in un'ottica di riuso si è scelto di produrre subito una versione funzionante in maniera tale da identificare requisiti non funzionali che non verrebbero sollecitati con un mockup.
-L'idea alla basa è di fornire agli specialisti di sicurezza un'anteprima del progetto, consentendo loro di esprimere feedback essenziali. 
-Tale fase è fondamentale,  poiché si ritiene che un feedback positivo da parte degli specialisti di sicurezza e del manager possa costituire una solida base.
+Le ragioni che giustificano la scelta di sviluppare un prototipo anziché un mockup sono legate al fatto che il prototipo rappresenta un fondamento del software, mentre il mockup potrebbe essere scartato durante la fase di approvazione. In un'ottica di ottimizzazione delle risorse e di massimizzazione del riuso, è stato deciso di produrre immediatamente una versione funzionante del sistema. Ciò consente di identificare i requisiti non funzionali che potrebbero non emergere con chiarezza attraverso un mockup.
+
+L'obiettivo alla base di questa decisione è quello di fornire agli specialisti della sicurezza un'anteprima tangibile del progetto, consentendo loro di fornire feedback essenziali. Questa fase è di cruciale importanza, poiché si ritiene che un riscontro positivo da parte degli specialisti della sicurezza e dei responsabili possa costituire una base solida per il successivo sviluppo del software.
 
 ## Esito
-L'accettazione positiva del prototipo costituisce una solida base per la fase successiva dello sviluppo, indicando che il lavoro finora svolto risponde adeguatamente alle aspettative degli stakeholder. 
-D'altra parte, se il feedback degli stakeholder indica una non accettazione del prototipo, il processo di modifica e adattamento viene avviato per affrontare specificamente le critiche o le lacune identificate. Questo stadio di ritorno alla fase di modifica è essenziale per garantire che il prototipo venga adeguatamente migliorato e che le preoccupazioni degli stakeholder siano completamente indirizzate. L'obiettivo è raggiungere un consenso e una soddisfazione complessiva, consentendo al processo di avanzare in modo efficace e rispondente alle necessità del progetto.
+L'accettazione positiva del prototipo rappresenta un fondamento solido per la successiva fase di sviluppo, indicando che il lavoro finora svolto risponde in modo adeguato alle aspettative degli stakeholder. D'altra parte, se il feedback degli stakeholder indica una non accettazione del prototipo, viene avviato il processo di modifica e adattamento per affrontare specificamente le critiche o le lacune identificate. Questa fase di ritorno e di revisione è essenziale per assicurare un miglioramento adeguato del prototipo e per affrontare completamente le preoccupazioni degli stakeholder.
+
+L'obiettivo principale è raggiungere un consenso e una soddisfazione complessiva, consentendo al processo di avanzare in modo efficace e rispondente alle necessità del progetto. In tal modo, si promuove un ambiente collaborativo in cui il prototipo evolve in base ai feedback ricevuti, assicurando una maggiore allineamento con le aspettative e un progresso più efficace nel ciclo di sviluppo.
 
