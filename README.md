@@ -1,5 +1,11 @@
 # Assignment 2 - Processo e Sviluppo del Software
 
+© 2023 Ricci Claudio - Ficara Damiano. Tutti i diritti riservati.
+
+Il presente documento e tutte le idee in esso contenute sono protette da copyright. Nessuna parte di questo documento può essere riprodotta, distribuita o trasmessa in qualsiasi forma o con qualsiasi mezzo, inclusi fotocopie, registrazioni o altri metodi, senza il previo consenso scritto del detentore del copyright
+
+Per ottenere autorizzazioni, si prega di contattare c.ricci19@campus.unimib.it
+
 ## Git URL
 https://gitlab.com/bicoccaprojects/2023_assignment2_interview
 
